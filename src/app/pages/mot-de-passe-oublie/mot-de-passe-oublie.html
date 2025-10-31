@@ -1,0 +1,20 @@
+<h2>Réinitialiser votre mot de passe</h2>
+
+<form (ngSubmit)="onSubmit()" #form="ngForm" class="reset-form">
+
+  <label for="email">Adresse e-mail :</label>
+  <input
+    id="email"
+    name="email"
+    type="email"
+    [(ngModel)]="user.email"
+    required
+  />
+
+  <button type="submit">Réinitialiser</button>
+</form>
+
+@if (message) {
+  <p>{{ message }} {{user.password}}</p>
+  <button (click)="goToLogin()">Connectez-vous avec votre nouveau mot de passe !!</button>
+}

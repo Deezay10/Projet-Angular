@@ -1,0 +1,17 @@
+.uk-child-width-1-2\@s {
+  border: 0px solid #ddd;
+}
+.uk-inline-clip {
+  border: 12px solid white;
+}
+.delete-btn {
+  background-color: #e53935; /* rouge */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.delete-btn:hover {
+  background-color: #c62828; /* rouge plus foncé au hover */
+}

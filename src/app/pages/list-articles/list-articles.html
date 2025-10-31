@@ -1,0 +1,18 @@
+<div class="uk-container">
+  <div class="uk-child-width-1-2@m" uk-grid>
+    @for (article of articles; track article) {
+      <div>
+        <div class="uk-card uk-card-default uk-card-body uk-inline-clip">
+          <img class="uk-responsive-width" src="{{ article.imgPath }}" alt="">
+          <h3 class="uk-card-title">{{ article.title }}</h3>
+          <p>{{ article.desc }}...  <a href="http://localhost:4200/detail-article/{{article.id}}">Voir plus</a></p>
+          <button class="delete-btn" (click)="supprimerArticle(article.id)">🗑️</button>
+        </div>
+      </div>
+    }
+    <button (click)="goToAddArticle()">Ajouter un article</button>
+  </div>
+</div>
+
+
+

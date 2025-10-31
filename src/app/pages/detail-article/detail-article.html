@@ -1,0 +1,11 @@
+@if(article) {
+  <h2 class="title">Voici l'article n°{{ article.id }}</h2>
+  <div class = "article">
+    <img class="image" [src]="article.imgPath" alt="image" width="300">
+    <p class="description">{{ article.desc }}</p>
+    <P class="author">Fait par {{article.author}}</P>
+  </div>
+}
+
+
+
