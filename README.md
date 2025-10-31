@@ -8,9 +8,9 @@ Page detail-article qui permet d'avoir une page html avec le detail d'un seul ar
 
 Page login qui permet une connexion avec un user ci-dessous :
 
-isaac@gmail.com | password
-tata@gmail.com | 123456
-toto@gmail.com | 12345
+isaac@gmail.com | password/
+tata@gmail.com | 123456/
+toto@gmail.com | 12345/
 
 Page mot-de-passe-oublie qui permet de changer son mot de passe si on l'a oublié, le nouveau mot de passe est affiché sur la page, c'est l'api qui le génère
 
